@@ -86,7 +86,9 @@ drwxrwxr-x  2 kali kali 4.0K May 22  2019 addrs
 drwxrwxr-x  7 kali kali 4.0K May 22  2019 backend
 
 -rw-rw-r--  1 kali kali 1.8K May 22  2019 BUILDING.md
+
 . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
 drwxrwxr-x  3 kali kali  12K May 22  2019 terraform
 
 drwxrwxr-x  2 kali kali 4.0K May 22  2019 test-fixtures
@@ -111,17 +113,21 @@ drwxrwxr-x  7 kali kali 4.0K May 22  2019 website
                                                                                                                                                                                                            
 ┌──(root㉿kali)
 └─# sudo ln -s /home/kali/Downloads/terraform-0.12.0  /usr/local/bin/terraform0.12.31
+
                                                                                                                                                                                                            
 ┌──(root㉿kali)
-└─# terraform0.12.31 -version                                                               
+└─# terraform0.12.31 -version
+
 Terraform v0.12.31
 on linux_amd64
+
 
 Your version of Terraform is out of date! The latest version
 is 1.3.7. You can update by downloading from https://www.terraform.io/downloads.html
                                                                                                                                                                                                            
 ┌──(root㉿kali)
-└─# terraform -version 
+└─# terraform -version
+
 Terraform v1.3.6
 on linux_amd64
 
