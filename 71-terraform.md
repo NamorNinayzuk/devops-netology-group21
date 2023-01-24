@@ -112,12 +112,18 @@ drwxrwxr-x  2 kali kali 4.0K May 22  2019 version
 drwxrwxr-x  7 kali kali 4.0K May 22  2019 website
                                                                                                                                                                                                            
 ┌──(root㉿kali)
+
 |
+
+
 └─# sudo ln -s /home/kali/Downloads/terraform-0.12.0  /usr/local/bin/terraform0.12.31
+
 
                                                                                                                                                                                                            
 ┌──(root㉿kali)
+
 |
+
 └─# terraform0.12.31 -version
 
 Terraform v0.12.31
@@ -128,7 +134,9 @@ Your version of Terraform is out of date! The latest version
 is 1.3.7. You can update by downloading from https://www.terraform.io/downloads.html
                                                                                                                                                                                                            
 ┌──(root㉿kali)
+
 |
+
 └─# terraform -version
 
 Terraform v1.3.6
