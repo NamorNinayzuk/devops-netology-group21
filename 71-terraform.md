@@ -73,6 +73,8 @@
 запускаем через symlink
                                                                                                                                                                                                          
 ┌──(root㉿kali)
+
+
 └─# ls -lah /home/kali/Downloads/terraform-0.12.0
 
 total 404K
@@ -113,7 +115,6 @@ drwxrwxr-x  7 kali kali 4.0K May 22  2019 website
                                                                                                                                                                                                            
 ┌──(root㉿kali)
 
-|
 
 
 └─# sudo ln -s /home/kali/Downloads/terraform-0.12.0  /usr/local/bin/terraform0.12.31
@@ -122,7 +123,6 @@ drwxrwxr-x  7 kali kali 4.0K May 22  2019 website
                                                                                                                                                                                                            
 ┌──(root㉿kali)
 
-|
 
 └─# terraform0.12.31 -version
 
@@ -135,7 +135,7 @@ is 1.3.7. You can update by downloading from https://www.terraform.io/downloads.
                                                                                                                                                                                                            
 ┌──(root㉿kali)
 
-|
+
 
 └─# terraform -version
 
